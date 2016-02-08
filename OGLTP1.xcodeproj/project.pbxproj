@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F4B40371C609A3100AB7DFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B40361C609A3100AB7DFC /* AppDelegate.m */; };
+		6F4B403A1C609A3100AB7DFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B40391C609A3100AB7DFC /* main.m */; };
+		6F4B403C1C609A3100AB7DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4B403B1C609A3100AB7DFC /* Assets.xcassets */; };
+		6F4B403F1C609A3100AB7DFC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F4B403D1C609A3100AB7DFC /* MainMenu.xib */; };
+		6F4B404A1C609A3100AB7DFC /* OGLTP1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B40491C609A3100AB7DFC /* OGLTP1UITests.m */; };
+		6F4B40561C609A6C00AB7DFC /* DAMVueOpenGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B40551C609A6C00AB7DFC /* DAMVueOpenGL.m */; settings = {ASSET_TAGS = (); }; };
+		6F4B40581C609AC200AB7DFC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4B40571C609AC200AB7DFC /* OpenGL.framework */; };
+		6F4B405A1C609ACC00AB7DFC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4B40591C609ACC00AB7DFC /* GLKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F4B40461C609A3100AB7DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F4B402A1C609A3100AB7DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F4B40311C609A3100AB7DFC;
+			remoteInfo = OGLTP1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F4B40321C609A3100AB7DFC /* OGLTP1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OGLTP1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4B40351C609A3100AB7DFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F4B40361C609A3100AB7DFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F4B40391C609A3100AB7DFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F4B403B1C609A3100AB7DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F4B403E1C609A3100AB7DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6F4B40401C609A3100AB7DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F4B40451C609A3100AB7DFC /* OGLTP1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OGLTP1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4B40491C609A3100AB7DFC /* OGLTP1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OGLTP1UITests.m; sourceTree = "<group>"; };
+		6F4B404B1C609A3100AB7DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F4B40541C609A6C00AB7DFC /* DAMVueOpenGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAMVueOpenGL.h; sourceTree = "<group>"; };
+		6F4B40551C609A6C00AB7DFC /* DAMVueOpenGL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAMVueOpenGL.m; sourceTree = "<group>"; };
+		6F4B40571C609AC200AB7DFC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		6F4B40591C609ACC00AB7DFC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F4B402F1C609A3100AB7DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4B405A1C609ACC00AB7DFC /* GLKit.framework in Frameworks */,
+				6F4B40581C609AC200AB7DFC /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4B40421C609A3100AB7DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F4B40291C609A3100AB7DFC = {
+			isa = PBXGroup;
+			children = (
+				6F4B40591C609ACC00AB7DFC /* GLKit.framework */,
+				6F4B40571C609AC200AB7DFC /* OpenGL.framework */,
+				6F4B40341C609A3100AB7DFC /* OGLTP1 */,
+				6F4B40481C609A3100AB7DFC /* OGLTP1UITests */,
+				6F4B40331C609A3100AB7DFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F4B40331C609A3100AB7DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F4B40321C609A3100AB7DFC /* OGLTP1.app */,
+				6F4B40451C609A3100AB7DFC /* OGLTP1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F4B40341C609A3100AB7DFC /* OGLTP1 */ = {
+			isa = PBXGroup;
+			children = (
+				6F4B40351C609A3100AB7DFC /* AppDelegate.h */,
+				6F4B40361C609A3100AB7DFC /* AppDelegate.m */,
+				6F4B403B1C609A3100AB7DFC /* Assets.xcassets */,
+				6F4B403D1C609A3100AB7DFC /* MainMenu.xib */,
+				6F4B40401C609A3100AB7DFC /* Info.plist */,
+				6F4B40381C609A3100AB7DFC /* Supporting Files */,
+				6F4B40541C609A6C00AB7DFC /* DAMVueOpenGL.h */,
+				6F4B40551C609A6C00AB7DFC /* DAMVueOpenGL.m */,
+			);
+			path = OGLTP1;
+			sourceTree = "<group>";
+		};
+		6F4B40381C609A3100AB7DFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F4B40391C609A3100AB7DFC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F4B40481C609A3100AB7DFC /* OGLTP1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F4B40491C609A3100AB7DFC /* OGLTP1UITests.m */,
+				6F4B404B1C609A3100AB7DFC /* Info.plist */,
+			);
+			path = OGLTP1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F4B40311C609A3100AB7DFC /* OGLTP1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4B404E1C609A3100AB7DFC /* Build configuration list for PBXNativeTarget "OGLTP1" */;
+			buildPhases = (
+				6F4B402E1C609A3100AB7DFC /* Sources */,
+				6F4B402F1C609A3100AB7DFC /* Frameworks */,
+				6F4B40301C609A3100AB7DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OGLTP1;
+			productName = OGLTP1;
+			productReference = 6F4B40321C609A3100AB7DFC /* OGLTP1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F4B40441C609A3100AB7DFC /* OGLTP1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4B40511C609A3100AB7DFC /* Build configuration list for PBXNativeTarget "OGLTP1UITests" */;
+			buildPhases = (
+				6F4B40411C609A3100AB7DFC /* Sources */,
+				6F4B40421C609A3100AB7DFC /* Frameworks */,
+				6F4B40431C609A3100AB7DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F4B40471C609A3100AB7DFC /* PBXTargetDependency */,
+			);
+			name = OGLTP1UITests;
+			productName = OGLTP1UITests;
+			productReference = 6F4B40451C609A3100AB7DFC /* OGLTP1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F4B402A1C609A3100AB7DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "LOUVET Florian";
+				TargetAttributes = {
+					6F4B40311C609A3100AB7DFC = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					6F4B40441C609A3100AB7DFC = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6F4B40311C609A3100AB7DFC;
+					};
+				};
+			};
+			buildConfigurationList = 6F4B402D1C609A3100AB7DFC /* Build configuration list for PBXProject "OGLTP1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F4B40291C609A3100AB7DFC;
+			productRefGroup = 6F4B40331C609A3100AB7DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F4B40311C609A3100AB7DFC /* OGLTP1 */,
+				6F4B40441C609A3100AB7DFC /* OGLTP1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F4B40301C609A3100AB7DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4B403C1C609A3100AB7DFC /* Assets.xcassets in Resources */,
+				6F4B403F1C609A3100AB7DFC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4B40431C609A3100AB7DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F4B402E1C609A3100AB7DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4B403A1C609A3100AB7DFC /* main.m in Sources */,
+				6F4B40561C609A6C00AB7DFC /* DAMVueOpenGL.m in Sources */,
+				6F4B40371C609A3100AB7DFC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4B40411C609A3100AB7DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4B404A1C609A3100AB7DFC /* OGLTP1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F4B40471C609A3100AB7DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F4B40311C609A3100AB7DFC /* OGLTP1 */;
+			targetProxy = 6F4B40461C609A3100AB7DFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F4B403D1C609A3100AB7DFC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F4B403E1C609A3100AB7DFC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F4B404C1C609A3100AB7DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6F4B404D1C609A3100AB7DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6F4B404F1C609A3100AB7DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OGLTP1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flo.OGLTP1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F4B40501C609A3100AB7DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OGLTP1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flo.OGLTP1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F4B40521C609A3100AB7DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OGLTP1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flo.OGLTP1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OGLTP1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6F4B40531C609A3100AB7DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OGLTP1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flo.OGLTP1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OGLTP1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F4B402D1C609A3100AB7DFC /* Build configuration list for PBXProject "OGLTP1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4B404C1C609A3100AB7DFC /* Debug */,
+				6F4B404D1C609A3100AB7DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F4B404E1C609A3100AB7DFC /* Build configuration list for PBXNativeTarget "OGLTP1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4B404F1C609A3100AB7DFC /* Debug */,
+				6F4B40501C609A3100AB7DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F4B40511C609A3100AB7DFC /* Build configuration list for PBXNativeTarget "OGLTP1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4B40521C609A3100AB7DFC /* Debug */,
+				6F4B40531C609A3100AB7DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F4B402A1C609A3100AB7DFC /* Project object */;
+}
